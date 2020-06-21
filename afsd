@@ -1,0 +1,11 @@
+[33mcommit 1937f3185f4779d170d74a0d3992f3dd30a7ae0a[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: jundoopop <jundolpop@gmail.com>
+Date:   Wed Jun 17 16:58:27 2020 +0900
+
+    gitignore update
+
+[33mcommit 6404c1274d1b09e015c44bbc8888d9867873aefc[m
+Author: jundoopop <jundolpop@gmail.com>
+Date:   Wed Jun 17 16:53:56 2020 +0900
+
+    #1.2 creating env and installing django
