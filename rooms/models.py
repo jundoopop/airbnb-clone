@@ -73,7 +73,7 @@ class Room(core_models.TimeStampedModel):
     city = models.CharField(max_length=80)
     price = models.IntegerField()
     address = models.CharField(max_length=140)
-    guests = models.IntegerField()
+    guests = models.IntegerField(help_text="How many people will be staying?")
     beds = models.IntegerField()
     bedrooms = models.IntegerField()
     baths = models.IntegerField()
@@ -109,3 +109,4 @@ class Room(core_models.TimeStampedModel):
             for review in all_reviews:
                 all_ratings += review.rating_average()
             return round(all_ratings / len(all_reviews), 2)
+        return 0

@@ -12,6 +12,9 @@ django = "==2.2.5"
 pillow = "*"
 django-countries = "*"
 django-seed = "*"
+black = "*"
+flake8 = "*"
+django-dotenv = "*"
 
 [requires]
 python_version = "3.8"
